@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fake: 1
   _problem: Autor is fake, infrared shows it
-  _solution: 'The infrared scan shows who the REAL creator was '
+  _solution: The REAL painter was Vivaldi, as seen in the Infrared scan
   _name: Lona Misa
   _autor: Leonardo va Dinci
   _date: 1503
