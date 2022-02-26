@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.UIElements;
+using Image = UnityEngine.UI.Image;
 
 public class SwipeManager : MonoBehaviour
 {
@@ -17,6 +19,12 @@ public class SwipeManager : MonoBehaviour
     [Header("Lerp Back Settings")]
     [Range(0f, 1.0f)] public float _lerpPaintingBackFinishErrorAcceptance;
     [Range(0f, 0.1f)] public float _lerpPaintingBackSpeed;
+
+    [Header("Drag Visualisation")] 
+    public float _triggerThreshold;
+    private bool _triggered;
+    public Image _fakeSprite;
+    public Image _realSprite;
 
     // Private Positions
     private Vector2 _paintingPos;
@@ -41,6 +49,12 @@ public class SwipeManager : MonoBehaviour
         // If the left mouse button is released
         if (Input.GetMouseButtonUp(0))
         {
+            if (Mathf.Abs(transform.position.x) >= _triggerThreshold)
+            {
+                _triggered = true;
+                Debug.Log("Triggered");
+            }
+            
             _mouseStartPos = Vector2.zero;
             StartCoroutine(LerpPaintingBackToPos());
             return;
@@ -91,6 +105,18 @@ public class SwipeManager : MonoBehaviour
         {
             _mouseStartPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             _paintingStartPos = transform.position;
+        }
+        
+        // Make the symbols green or red
+        if (transform.position.x < 0 && _triggered == false)
+        {
+            var x = Mathf.Clamp(transform.position.x, -_triggerThreshold, 0.0f) / _triggerThreshold;
+            _fakeSprite.color = new Color(_fakeSprite.color.r, _fakeSprite.color.g, _fakeSprite.color.b, -x);
+        }
+        else if (transform.position.x > 0 && _triggered == false)
+        {
+            var x = Mathf.Clamp(transform.position.x, 0.0f, _triggerThreshold) / _triggerThreshold;
+            _realSprite.color = new Color(_realSprite.color.r, _realSprite.color.g, _realSprite.color.b, x);
         }
 
     }
