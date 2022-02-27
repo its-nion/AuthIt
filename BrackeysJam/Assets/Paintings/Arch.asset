@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 995daf531a9b4b77b8e1fb04604d3c77, type: 3}
+  m_Name: Arch
+  m_EditorClassIdentifier: 
+  _fake: 1
+  _problem: wrong autor
+  _solution: Imagine Micheal Jordan sitting at his desk programming OS. LOL
+  _name: Arch
+  _autor: M. J. Jordan
+  _date: 2002
+  _condition: Arch
+  _fact: Arch Linux is rated as one of the best operating systems
+  _painting: {fileID: 21300000, guid: 96d0d17f76a937c4896d69d91973ae41, type: 3}
+  _frame: {fileID: 21300000, guid: 0c7ba222f4afc494182b287f2288a59c, type: 3}
+  _damage: {fileID: 21300000, guid: 96d0d17f76a937c4896d69d91973ae41, type: 3}
+  _xray: {fileID: 21300000, guid: 96d0d17f76a937c4896d69d91973ae41, type: 3}

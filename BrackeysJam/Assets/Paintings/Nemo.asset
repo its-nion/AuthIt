@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 995daf531a9b4b77b8e1fb04604d3c77, type: 3}
+  m_Name: Nemo
+  m_EditorClassIdentifier: 
+  _fake: 0
+  _problem: 
+  _solution: Dont think so much, its easy!
+  _name: Nemo
+  _autor: Andrew Stanton
+  _date: 2003
+  _condition: Light water damage
+  _fact: DOGS WERE USED AS MODELS FOR THE FISHY FACIAL EXPRESSIONS.
+  _painting: {fileID: 21300000, guid: a85ce4cdbf2854c4e8e30559ff4ae6c4, type: 3}
+  _frame: {fileID: 21300000, guid: 0c7ba222f4afc494182b287f2288a59c, type: 3}
+  _damage: {fileID: 21300000, guid: a0c2809e1411c1245841c5b9f8fcc6e0, type: 3}
+  _xray: {fileID: 21300000, guid: a85ce4cdbf2854c4e8e30559ff4ae6c4, type: 3}

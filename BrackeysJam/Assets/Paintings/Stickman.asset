@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 995daf531a9b4b77b8e1fb04604d3c77, type: 3}
-  m_Name: Test
+  m_Name: Stickman
   m_EditorClassIdentifier: 
-  _fake: 0
-  _problem: RealTest
-  _solution: RealTest
-  _name: Michal Jorden
-  _autor: He himsalf
-  _date: Last week
-  _condition: Very gud, even with signature
-  _fact: In 15 seasons, Jordan made it to the Finals six times and played 35 games
-    and won each series.
+  _fake: 1
+  _problem: There is another painting behind it!
+  _solution: So every Stickman hides something butiful inside it? (This one was used
+    to smuggle another painting out)
+  _name: Stickman
+  _autor: Every hooman in history
+  _date: Literally everyday
+  _condition: Unknown
+  _fact: The first stickman drawn was in a cave 6385 B.C. in Asia
   _painting: {fileID: 21300000, guid: d7ac43d6200c3724898b137835d1b853, type: 3}
-  _frame: {fileID: 21300000, guid: 8949db5d9124dab4298a5b44b86f76d6, type: 3}
+  _frame: {fileID: 21300000, guid: d4ed50ecfd8d7a64fa3e2c10d9cedb33, type: 3}
   _damage: {fileID: 21300000, guid: 346e21aaf10d8af4eb039773ddda24d0, type: 3}
-  _xray: {fileID: 21300000, guid: d7ac43d6200c3724898b137835d1b853, type: 3}
+  _xray: {fileID: 21300000, guid: 94b8b36f9f452ef449c541edbb279ffa, type: 3}

@@ -14,7 +14,7 @@ public class MainMenuButtonManager : MonoBehaviour
     
     public void onStartGamePress()
     {
-        anim.SetBool("startLevel", true);
+        SceneManager.LoadScene("Level");
     }
 
     public void onMusicPress()

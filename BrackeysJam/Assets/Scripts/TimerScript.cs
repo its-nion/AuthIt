@@ -14,9 +14,10 @@ public class TimerScript : MonoBehaviour
     public void startTimer()
     {
         _actualTime = _startTime + 1;
-        
-        StartCoroutine(countTimeDown());
+
+        StartCoroutine("countTimeDown");
     }
+
     IEnumerator countTimeDown(){
         while (_actualTime > 0)
         {

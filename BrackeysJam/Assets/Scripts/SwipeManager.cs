@@ -1,5 +1,4 @@
 using System.Collections;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
 using Image = UnityEngine.UI.Image;
@@ -127,6 +126,11 @@ public class SwipeManager : MonoBehaviour
             _realSprite.color = new Color(_realSprite.color.r, _realSprite.color.g, _realSprite.color.b, x);
         }
 
+    }
+
+    public void resetTriggeredState()
+    {
+        _triggered = false;
     }
     
     IEnumerator LerpPaintingBackToPos ()

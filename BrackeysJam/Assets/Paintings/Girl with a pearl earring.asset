@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 995daf531a9b4b77b8e1fb04604d3c77, type: 3}
+  m_Name: Girl with a pearl earring
+  m_EditorClassIdentifier: 
+  _fake: 1
+  _problem: fake no ear
+  _solution: Did you see an earring on her? No. But she has butiful eyes instead!
+  _name: Girl with a Pearl Earring
+  _autor: Johannes Vermeer
+  _date: 1665
+  _condition: Old. Just old.
+  _fact: Speculation on her identity led to a novel, movie, and stage production.
+  _painting: {fileID: 21300000, guid: 0abd871dd97b9854e82032f1dbf6447e, type: 3}
+  _frame: {fileID: 21300000, guid: ae38683b61b31284b88ad6affbcf7869, type: 3}
+  _damage: {fileID: 21300000, guid: 46659657b72e2fd44a559219804ac737, type: 3}
+  _xray: {fileID: 21300000, guid: 0abd871dd97b9854e82032f1dbf6447e, type: 3}
