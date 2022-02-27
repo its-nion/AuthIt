@@ -9,8 +9,8 @@ This project was made in one week as a part of the  <a href="https://itch.io/jam
 
 
 <p float="left">
-  <img src="pictures/MainMenu1.jpg" width="500" />
-  <img src="pictures/LevelShot1.jpg" width="500" /> 
+  <img src="pictures/MainMenu1.jpg" width="400" />
+  <img src="pictures/LevelShot1.jpg" width="400" /> 
 </p>
 
 <h3 align="center">
