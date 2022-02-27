@@ -122,13 +122,13 @@ public class LevelManager : MonoBehaviour
         _xRay.sprite = p._xray;
 
         _basicInfos.text =
-            "Name:  <color=#8C94A2>" + p._name.Replace(" ", "       ") + "</color>\n"
-            + "Autor:  <color=#8C94A2>" + p._autor.Replace(" ", "       ") + "</color>\n"
-            + "Date:  <color=#8C94A2>" + p._date + "</color>\n";
+            "Name:       <color=#8C94A2>" + p._name.Replace(" ", "       ") + "</color>\n"
+            + "Autor:       <color=#8C94A2>" + p._autor.Replace(" ", "       ") + "</color>\n"
+            + "Date:       <color=#8C94A2>" + p._date + "</color>\n";
         
         _advancedInfos.text =
-            "Condition:  <color=#8C94A2>" + p._condition.Replace(" ", "       ") + "</color>\n"
-            + "Fact:  <color=#8C94A2>" + p._fact.Replace(" ", "       ") + "</color>\n";
+            "Condition:       <color=#8C94A2>" + p._condition.Replace(" ", "       ") + "</color>\n"
+            + "Fact:       <color=#8C94A2>" + p._fact.Replace(" ", "       ") + "</color>\n";
         
         _picture.GetComponent<BoxCollider2D>().size = (p._painting.rect.size / p._painting.pixelsPerUnit);
     }
