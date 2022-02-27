@@ -23,3 +23,4 @@ You can play the game yourself on <a href="https://necsi.itch.io/authit">itch.io
 > - smoothing with 1/x after a linear curve
 > - pausing coroutines
 > - using scriptable objects to manage data more easily/performant
+> - syncing unity projects with others via github
