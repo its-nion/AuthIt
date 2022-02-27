@@ -9,10 +9,12 @@ public class MainMenuButtonManager : MonoBehaviour
     public Button _musicButton;
     public Sprite _musicOn;
     public Sprite _musicOff;
+
+    public Animator anim;
     
     public void onStartGamePress()
     {
-        SceneManager.LoadScene("Level");
+        anim.SetBool("startLevel", true);
     }
 
     public void onMusicPress()

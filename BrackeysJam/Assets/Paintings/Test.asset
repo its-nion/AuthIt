@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 995daf531a9b4b77b8e1fb04604d3c77, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  _fake: 0
+  _problem: RealTest
+  _solution: RealTest
+  _name: Michal Jorden
+  _autor: He himsalf
+  _date: Last week
+  _condition: Very gud, even with signature
+  _fact: In 15 seasons, Jordan made it to the Finals six times and played 35 games
+    and won each series.
+  _painting: {fileID: 21300000, guid: d7ac43d6200c3724898b137835d1b853, type: 3}
+  _frame: {fileID: 21300000, guid: 8949db5d9124dab4298a5b44b86f76d6, type: 3}
+  _damage: {fileID: 21300000, guid: 346e21aaf10d8af4eb039773ddda24d0, type: 3}
+  _xray: {fileID: 21300000, guid: d7ac43d6200c3724898b137835d1b853, type: 3}

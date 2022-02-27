@@ -26,6 +26,9 @@ public class SwipeManager : MonoBehaviour
     public Image _fakeSprite;
     public Image _realSprite;
 
+    [Header("Other")] 
+    public LevelManager _levelManager;
+
     // Private Positions
     private Vector2 _paintingPos;
     private Vector2 _paintingStartPos;
@@ -49,10 +52,15 @@ public class SwipeManager : MonoBehaviour
         // If the left mouse button is released
         if (Input.GetMouseButtonUp(0))
         {
-            if (Mathf.Abs(transform.position.x) >= _triggerThreshold)
+            if (transform.position.x >= _triggerThreshold)
             {
                 _triggered = true;
-                Debug.Log("Triggered");
+                _levelManager.levelEnd("real");
+            }
+            else if (transform.position.x <= -_triggerThreshold)
+            {
+                _triggered = true;
+                _levelManager.levelEnd("fake");
             }
             
             _mouseStartPos = Vector2.zero;

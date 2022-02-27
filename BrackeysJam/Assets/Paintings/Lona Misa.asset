@@ -21,7 +21,7 @@ MonoBehaviour:
   _condition: Mint, little scratches but still beautiful
   _fact: On August 21, 1911, the painting was stolen right off the museum's wall
     in a heist that rocked the art world, making it as famous as it is today.
-  _painting: {fileID: 21300000, guid: 27cf5ed3f494d074595986209eabf813, type: 3}
-  _frame: {fileID: 21300000, guid: 29e5946d2deceb043a985ffd668e9e33, type: 3}
-  _damage: {fileID: 21300000, guid: cc974e80775650041b447eb24ce19e97, type: 3}
-  _xray: {fileID: 21300000, guid: 6df64b9eacacb744e8d263989f684c37, type: 3}
+  _painting: {fileID: 21300000, guid: 94b8b36f9f452ef449c541edbb279ffa, type: 3}
+  _frame: {fileID: 21300000, guid: 8949db5d9124dab4298a5b44b86f76d6, type: 3}
+  _damage: {fileID: 21300000, guid: 46659657b72e2fd44a559219804ac737, type: 3}
+  _xray: {fileID: 21300000, guid: 5ed24a4de9fff794790cc4f6187a625f, type: 3}
