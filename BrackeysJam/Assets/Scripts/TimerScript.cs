@@ -9,6 +9,8 @@ public class TimerScript : MonoBehaviour
     public TMP_Text _timerText;
     public LevelManager _LevelManager;
 
+    public bool _paused = false;
+
     private float _actualTime;
 
     public void startTimer()
@@ -21,6 +23,11 @@ public class TimerScript : MonoBehaviour
     IEnumerator countTimeDown(){
         while (_actualTime > 0)
         {
+            while (_paused == true)
+            {
+                yield return new WaitForSeconds(0.2f);
+            }
+            
             _actualTime--;
             _timerText.text = _actualTime.ToString();
             yield return new WaitForSeconds(1);

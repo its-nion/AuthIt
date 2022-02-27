@@ -6,6 +6,7 @@ using UnityEngine;
 public class DontDestroyGameobject : MonoBehaviour
 {
     private static DontDestroyGameobject instance = null;
+
     public static DontDestroyGameobject Instance
     {
         get { return instance; }

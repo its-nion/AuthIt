@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Banana
   m_EditorClassIdentifier: 
   _fake: 1
-  _problem: Banana shouldn t be here
-  _solution: I told you the banana was eaten !
+  _problem: Banana shouldn't be here
+  _solution: I told you the banana was eaten!
   _name: Duct taped banana
   _autor: Maurizio Cattelan
   _date: 2019
