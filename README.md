@@ -3,7 +3,7 @@ AuthIt
  </h1>
  
 <h3 align="center">
-This project was made in one week as a part of the  <a href="https://itch.io/jam/brackeys-7">Brackeys Game Jam 2022.1</a>
+This project was made in one week as a part of <a href="https://itch.io/jam/brackeys-7">Brackeys Game Jam 2022.1</a>
 </h3>
 
 
