@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 995daf531a9b4b77b8e1fb04604d3c77, type: 3}
   m_Name: Banana
   m_EditorClassIdentifier: 
-  _fake: 0
-  _problem: 
-  _solution: 
-  _name: 
-  _autor: 
-  _date: 
-  _condition: 
-  _fact: 
-  _painting: {fileID: 0}
+  _fake: 1
+  _problem: Banana shouldn t be here
+  _solution: I told you the banana was eaten !
+  _name: Duct taped banana
+  _autor: Maurizio Cattelan
+  _date: 2019
+  _condition: Intact
+  _fact: This is a $120,000 work of art consisting of a banana duct-taped to a wall.
+    It was ripped from its perch and eaten by a performance artist.
+  _painting: {fileID: 21300000, guid: cad25c4df5228400b8bcbe2bd4ce1798, type: 3}
   _frame: {fileID: 0}
   _damage: {fileID: 0}
-  _xray: {fileID: 0}
+  _xray: {fileID: 21300000, guid: 73c78483bf327670fbbb8b45c7f53b6f, type: 3}
